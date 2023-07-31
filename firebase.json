@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "soaresdev-congresso-2023",
+      "public": "dist",
+      "ignore": ["**/.*"]
+    }
+  ]
+}

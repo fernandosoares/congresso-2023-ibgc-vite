@@ -1,0 +1,81 @@
+#home {
+  background: url(../../img/2023/hero.png);
+  position: relative;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  video {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .row.hero-row {
+    padding-top: 280px;
+
+    h1 {
+      font-weight: 600;
+      font-size: 88px !important;
+      margin: 0;
+      padding: 0;
+      line-height: 70px;
+      max-width: 500px;
+
+      span {
+        font-weight: 300;
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .event-info {
+      font-weight: 600;
+      color: #dbd259;
+      font-size: 33px;
+      margin: 55px 0 80px 0;
+
+      .date {
+        margin-right: 60px;
+
+        p {
+          margin: 0 0 0 15px;
+          padding: 0;
+        }
+      }
+
+      .location {
+        p {
+          margin: 0 0 0 15px;
+          padding: 0;
+        }
+      }
+    }
+
+    .sobre {
+      /* box-shadow: 0 0 3px #868686; */
+      background-color: #fff;
+      color: #000;
+      padding: 50px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 44px;
+        margin: 0 0 50px 0;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 34px;
+      }
+
+      a {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 34px;
+        color: #1e47b3;
+        text-decoration: none;
+      }
+    }
+  }
+}
